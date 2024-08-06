@@ -1,0 +1,68 @@
+<dotctype html>
+    <Html lang="pl-PL">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>Marcin Muszyński ver 2.0</title>
+            <link href="image/iconMM.jpg" rel="icon" type="image/x-icon"> 
+            <link href="CSS/Main.css" rel="stylesheet">
+            <link href="CSS/Main.mobile.css" rel="stylesheet">
+          </head>
+               <body>
+                    <nav >
+                        <ul class="sidebar">
+                            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                            <li><a href="page1.html">O mnie</a></li>
+                            <li><a href="Kariera.html">Kariera</a></li>
+                            <li><a href="Projekty.html">Projekty</a></li>
+                            <li><a href="galeria.html">Galeria</a></li>
+                            <li><a href="dyplomy.html">Dyplomy</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="index.html">Marcin Muszyński <img class="img-logo" src="image/671.png" alt="logo"></a></li>
+                            <li class="hideonmobile"><a href="page1.html">O mnie</a></li>
+                            <li class="hideonmobile"><a href="Kariera.html">Kariera</a></li>
+                            <li class="hideonmobile"><a href="Projekty.html">Projekty</a></li>
+                            <li class="hideonmobile"><a href="galeria.html">Galeria</a></li>
+                            <li class="hideonmobile"><a href="dyplomy.html">Dyplomy</a></li>
+                            <li class="hideonmobile"><a href="kontakt.html">Kontakt</a></li>
+                            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                        </ul>
+                    </nav>
+
+                    
+                <h1>Kontakt</h1>
+                <p class="witaj"> </p>
+                <br />
+                <br />
+                <p class="witaj">Dane Kontaktowe</p>
+                <p class="witaj">Telefon: 794975775
+                </p>
+                <p class="witaj">E-Mail:<a href="mailto:Marcin_Musz@wp.pl">Marcin_Musz@wp.pl</a>
+                </p>
+                <pre class="witaj">
+                    Adres:
+                    Ul.: Międzyrzecze 20/21
+                    87-100 Toruń
+                </pre>
+                <div class="ifreme_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2401.1168900126945!2d18.72021167715074!3d53.000282572191004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ccbaece98b93f%3A0x3cfcf71d40678976!2sMi%C4%99dzyrzecze%2C%2087-162%20Toru%C5%84!5e0!3m2!1spl!2spl!4v1722953939794!5m2!1spl!2spl"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </iframe>
+
+                    <script>
+                        function showSidebar(){
+                            const sidebar = document.querySelector('.sidebar')
+                            sidebar.style.display = 'flex'
+                        }
+                        function hideSidebar(){
+                            const sidebar = document.querySelector('.sidebar')
+                            sidebar.style.display = 'none'
+                        }
+                    </script>
+               </body>
+
+    </Html>

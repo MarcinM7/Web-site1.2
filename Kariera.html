@@ -1,0 +1,103 @@
+<dotctype html>
+    <Html lang="pl-PL">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>Marcin Muszyński ver 2.0</title>
+            <link href="image/iconMM.jpg" rel="icon" type="image/x-icon"> 
+            <link href="CSS/Main.css" rel="stylesheet">
+            <link href="CSS/Main.mobile.css" rel="stylesheet">
+          </head>
+               <body>
+                    <nav >
+                        <ul class="sidebar">
+                            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                            <li><a href="page1.html">O mnie</a></li>
+                            <li><a href="Kariera.html">Kariera</a></li>
+                            <li><a href="Projekty.html">Projekty</a></li>
+                            <li><a href="galeria.html">Galeria</a></li>
+                            <li><a href="dyplomy.html">Dyplomy</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="index.html">Marcin Muszyński <img class="img-logo" src="image/671.png" alt="logo"></a></li>
+                            <li class="hideonmobile"><a href="page1.html">O mnie</a></li>
+                            <li class="hideonmobile"><a href="Kariera.html">Kariera</a></li>
+                            <li class="hideonmobile"><a href="Projekty.html">Projekty</a></li>
+                            <li class="hideonmobile"><a href="galeria.html">Galeria</a></li>
+                            <li class="hideonmobile"><a href="dyplomy.html">Dyplomy</a></li>
+                            <li class="hideonmobile"><a href="kontakt.html">Kontakt</a></li>
+                            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                        </ul>
+                    </nav>
+            
+                    <h1>Kariera</h1>
+                    <br />
+                    <br />
+            
+                <div class="row">
+                    <div class="left">
+                        <img src="image/Omnie/1_b.jpg" alt="">
+                    </div>
+                    <div class="right">
+                        <div class="content">
+                            <p>
+                                Po ukończeniu studiów na Wyższej Szkole Bankowej, 
+                                rozpocząłem swoją karierę zawodową na infolinii, 
+                                gdzie zdobyłem cenne doświadczenie w bezpośrednim kontakcie 
+                                z klientami. Moja praca polegała na rozwiązywaniu różnorodnych 
+                                problemów technicznych, głównie związanych z komputerami i 
+                                oprogramowaniem. Dzięki temu rozwinąłem umiejętności analitycznego 
+                                myślenia i efektywnego rozwiązywania problemów, co pozwoliło mi lepiej zrozumieć 
+                                potrzeby klientów i dostarczać im skuteczne rozwiązania. 
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="left">
+                            <img src="image/Omnie/105.jpg" alt="">
+                        </div>
+                        <div class="right">
+                            <div class="content">
+                                <p>
+                                    Po kilku latach pracy na infolinii, postanowiłem rozwijać swoją karierę w bardziej 
+                                    bezpośrednim kontakcie z klientem i dołączyłem do zespołu Media Markt w Toruniu. 
+                                    W tej roli miałem okazję pracować na stanowisku specjalisty ds. sprzedaży sprzętu komputerowego. 
+                                    Moje wcześniejsze doświadczenia w rozwiązywaniu problemów technicznych okazały się niezwykle pomocne, 
+                                    pozwalając mi doradzać klientom w wyborze odpowiedniego sprzętu i oprogramowania, a także wspierać 
+                                    ich w kwestiach technicznych. 
+                                </p>
+                            </div>
+                        </div> 
+
+                        <div class="row">
+                            <div class="left">
+                                <img src="image/Omnie/MM.jpg" alt="">
+                            </div>
+                            <div class="right">
+                                <div class="content">
+                                    <p>
+                                    Praca w Media Markt pozwoliła mi nie tylko na rozwijanie umiejętności 
+                                    sprzedażowych, ale także na pogłębienie wiedzy na temat najnowszych technologii
+                                    i trendów rynkowych. Byłem odpowiedzialny za zapewnienie wysokiej jakości obsługi klienta, 
+                                    co przyczyniło się do zbudowania trwałych relacji z klientami i zwiększenia ich satysfakcji z zakupów 
+                                    </p>
+                                </div>
+                            </div> 
+                
+
+                    <script>
+                        function showSidebar(){
+                            const sidebar = document.querySelector('.sidebar')
+                            sidebar.style.display = 'flex'
+                        }
+                        function hideSidebar(){
+                            const sidebar = document.querySelector('.sidebar')
+                            sidebar.style.display = 'none'
+                        }
+                    </script>
+               </body>
+
+    </Html>

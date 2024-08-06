@@ -1,0 +1,98 @@
+<dotctype html>
+    <Html lang="pl-PL">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>Marcin Muszyński ver 2.0</title>
+            <link href="image/iconMM.jpg" rel="icon" type="image/x-icon"> 
+            <link href="CSS/Main.css" rel="stylesheet">
+            <link href="CSS/Main.mobile.css" rel="stylesheet">
+          </head>
+               <body>
+                    <nav >
+                        <ul class="sidebar">
+                            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                            <li><a href="page1.html">O mnie</a></li>
+                            <li><a href="Kariera.html">Kariera</a></li>
+                            <li><a href="Projekty.html">Projekty</a></li>
+                            <li><a href="galeria.html">Galeria</a></li>
+                            <li><a href="dyplomy.html">Dyplomy</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="index.html">Marcin Muszyński <img class="img-logo" src="image/671.png" alt="logo"></a></li>
+                            <li class="hideonmobile"><a href="page1.html">O mnie</a></li>
+                            <li class="hideonmobile"><a href="Kariera.html">Kariera</a></li>
+                            <li class="hideonmobile"><a href="Projekty.html">Projekty</a></li>
+                            <li class="hideonmobile"><a href="galeria.html">Galeria</a></li>
+                            <li class="hideonmobile"><a href="dyplomy.html">Dyplomy</a></li>
+                            <li class="hideonmobile"><a href="kontakt.html">Kontakt</a></li>
+                            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                        </ul>
+                    </nav>
+                    <h1>Galeria</h1>
+
+                    <br>
+                    <h2>To na czym pracuję</h2>
+                    <br />
+                    <br />
+
+                    <p class="witaj">
+                        <div class="photo-container">
+                          <figure class="photo1">
+                            <img src="image/Galeria/IMG_1481.JPG"
+                            alt="Mechanic MC75T Minionek" width="350">
+                            <figcaption class="fig">
+                              Mechanic MC75T Minionek
+                            </figcaption>
+                         </figure>
+                        
+                          <figure class="photo2">
+                            <img src="image/Galeria/IMG_1478.JPG"
+                               alt="Zasilacz laboratoryjny Korad KA3005D" width="350" >
+                              <figcaption class="fig">
+                              Zasilacz laboratoryjny Korad KA3005D
+                              </figcaption> 
+                          </figure>
+                        
+                          <figure class="photo3">
+                            <img src="image/Galeria/IMG_1477.JPG"
+                               alt="Hot Air Sugon 2020D HOTAIR"width="350" >
+                              <figcaption class="fig">
+                              Hot Air Sugon 2020D HOTAIR
+                              </figcaption> 
+                          </figure>
+                        
+                        <figure class="photo4">
+                          <img src="image/Galeria/IMG_1480.JPG"
+                               alt="Mulitmetr UNI-T UT139S" width="350" >
+                          <figcaption class="fig">
+                          Mulitmetr UNI-T UT139S
+                          </figcaption> 
+                        </figure>
+                        
+                        <figure class="photo5">
+                          <img src="image/Galeria/IMG_1479.JPG"
+                               alt="Stacja Lutownicza Hony 938A" width="350">
+                          <figcaption class="fig">
+                          Stacja Lutownicza Hony 938A
+                          </figcaption> 
+                          
+                        </figure>
+      
+                       </div> 
+
+                    <script>
+                        function showSidebar(){
+                            const sidebar = document.querySelector('.sidebar')
+                            sidebar.style.display = 'flex'
+                        }
+                        function hideSidebar(){
+                            const sidebar = document.querySelector('.sidebar')
+                            sidebar.style.display = 'none'
+                        }
+                    </script>
+               </body>
+
+    </Html>
